@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 1px solid #008ed6;  
+}
+#header{
+    background: url(../img/MacBook\ Pro\ 161.png)  no-repeat center center/cover;
+}
+#sini{
+    background-color:#333;
+}
+.box-1{
+
+    border:1px solid #3292ab;
+}
+.block{
+    transition: .5s;
+    border:1px solid rgba(0, 0, 0, .1);
+}
+.block:hover{
+    color: #fff;
+    background-color:#3292ab;
+}
+.block img{
+    margin-top: -40px;
+    border-radius: 100%;
+}
+.Message{
+    padding-top: -20px;
+    height: 100px;
+}
